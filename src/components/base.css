@@ -29,3 +29,14 @@ img {
   height: auto;
   overflow: contain;
 }
+
+
+/* scroll */
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232526;
+}

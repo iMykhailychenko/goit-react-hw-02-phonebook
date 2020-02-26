@@ -45,6 +45,22 @@
                 ]
             }
         ],
+        "jsx-a11y/label-has-associated-control": [
+            2,
+            {
+                "labelComponents": [
+                    "CustomLabel"
+                ],
+                "labelAttributes": [
+                    "inputLabel"
+                ],
+                "controlComponents": [
+                    "CustomInput"
+                ],
+                "assert": "both",
+                "depth": 3
+            }
+        ],
         "jsx-a11y/no-onchange": 0,
         "import/no-extraneous-dependencies": [
             "error",

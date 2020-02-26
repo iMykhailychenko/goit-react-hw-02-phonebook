@@ -1,3 +1,11 @@
 .title {
+  margin: 10px 0;
   font-size: 1.6rem;
+}
+
+.wrp {
+  height: 100%;
+  padding: 14px;
+  padding-bottom: 60px;
+  overflow-y: scroll;
 }

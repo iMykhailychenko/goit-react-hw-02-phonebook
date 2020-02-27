@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import styles from '../contact-form/ContactForm.module.css';
 import stylesFilter from './Filter.module.css';
 
@@ -17,5 +18,10 @@ const Filter = ({ value, onFilterChanges }) => (
     </div>
   </label>
 );
+
+Filter.propTypes = {
+  value: PropTypes.string.isRequired,
+  onFilterChanges: PropTypes.func.isRequired,
+};
 
 export default Filter;

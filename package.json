@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://iMykhailychenko.github.io/goit-react-hw-02-feedback/",
+  "homepage": "https://iMykhailychenko.github.io/goit-react-hw-02-phonebook/",
   "dependencies": {
     "classnames": "^2.2.6",
     "clsx": "^1.0.4",

@@ -3,10 +3,21 @@
 }
 
 .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px 8px;
   border-top: 1px solid #fff;
 }
 
 .item:nth-last-of-type(1) {
   border-bottom: 1px solid #fff;
+}
+
+.btn {
+  padding: 2px 4px;
+  background: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
